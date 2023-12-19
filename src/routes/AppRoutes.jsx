@@ -7,6 +7,7 @@ import Books from '../pages/Books/Books';
 import Book from '../pages/Books/Book';
 import CreateBook from '../pages/Books/CreateBook';
 import EditBook from '../pages/Books/EditBook';
+import NotFound from '../components/NotFound';
 
 const AppRoutes = () => {
   return (
@@ -18,6 +19,7 @@ const AppRoutes = () => {
         <Route path={`${paths.books}/:id`} element={<Book />} />
         <Route path={paths.createBook} element={<CreateBook />} />
         <Route path={`${paths.editBook}/:id`} element={<EditBook />} />
+        <Route path="*" element={<NotFound />} />
       </Routes>
       <Footer />
     </>
