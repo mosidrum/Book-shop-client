@@ -38,8 +38,7 @@ const Books = () => {
 		<div>
 			<h1>Books</h1>
 			<p>
-				This is where we use NodeJs, express & mongoDB to grab some data. The
-				data below is pulled fromo a mongo DB database.
+				These are the Collection of books in my store
 			</p>
       <Link to={paths.createBook}>Add New Book</Link>
 			<h2>Available books</h2>
