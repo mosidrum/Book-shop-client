@@ -10,9 +10,7 @@ const Header = () => {
         <img src={logo} alt='ReactJs' />BookShop
       </Link>
       <nav>
-        <NavLink to={paths.index}>Home</NavLink>
         <NavLink to={paths.books}>Books</NavLink>
-        <NavLink to={paths.about}>About</NavLink>
       </nav>
     </header>
   )
